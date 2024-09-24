@@ -1,23 +1,24 @@
 """
-Write a Python program that asks the user to enter their name using the input() function, and then prints a greeting message using the print() function. For example, if the user enters "Alice", the program should print "Hello, Alice!"
+Assignment-1:
+WAP to print the following output using print function
+1 2 3 4 5
 """
-#1) program...
-print("Hello,",input("Enter name: "))
+print("Assignment 1")
+print(1,2,3,4,5)
+"""
+Assignment-2:
+# WAP to print the following output using print function
+1 2 3 => Same line, one space between each value
+4    5 => Same line, tab space between each value
 
 """
-WAP to print the following output in single of code
-'Hello' : dynamic using input()
-'Anil' : dynamic using input()
-Note: please use print() to combine the output
-Final output format:
-Hello Anil
-Hi Anil
-I Love Python
+print("Assignment 2")
+print(1,2,3,"\n4","\t",5)
 """
-# 2) program.
-print(input("enter message1: "),input("enter message2: "))
+Assignment-3:
+WAP to print 'Hi' on the screen
+and 'I Love Python' to the file using the print function
 """
-Write a script that asks the user for their name, age, and favorite color, and then prints a single sentence summarizing this information in a formatted string.
-"""
-# 3) program.
-print("this is ",input("enter name: "),", my age is",input("enter age: "),", my favorite color is ",input("enter favorite color: "))
+print("Assignment 3")
+print("Hi")
+print("I love Python",file=open("output.txt","w"))
